@@ -1,0 +1,21 @@
+#name {
+    font-size: 2em;
+    font-weight:  bold;
+    margin-bottom: 0.67em;
+}
+
+#bio {
+    font-size: .5em;
+    margin: 1em 0px;
+}
+
+#twitter {
+    font-size: .5em;
+    margin: 1em 0px;
+}
+
+#initial {
+    font-style: italic;
+    font-weight: bold;
+    margin: .5em 0px;
+}
