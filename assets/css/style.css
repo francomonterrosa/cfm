@@ -1,35 +1,91 @@
 body {
-    background-color: #2CAE5A;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#name {
-    font-size: 2em;
-    font-weight:  bold;
-    margin-bottom: 0.67em;
-    text-align: -webkit-center;
-}
-
-
-#bio {
-    font-size: .5em;
-    margin: 1em 0px;
-
-
-}
-
-#twitter {
-    font-size: .5em;
-    margin: 1em 0px;
-}
-
-#initial {
-    font-style: normal;
-    font-weight: lighter;
-    margin: .5em 0px;
-    letter-spacing: 8px
-    
+img {
+    width:100%;
 }
 
 #container {
+    width: 960px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#thumbnail {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#thumbnail img {
+
+}
+
+#header {
+    margin: 24px 12px 2px 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#subheader {
+    margin: 3px 12px 10px 12px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+#description {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link {
+    background-color: #4785dc;
+    margin-left: 395px;
+    margin-right: 395px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: Light;
+    padding: 10px;
+}
+
+.list-container {
+    background-color: #f5f5f5;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 5px;
+
+}
+
+.list-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+
+}
+
+.list-content {
+
+}
+
+.list-item {
+    background-color: white;
+    padding: 10px;
+    margin: 12px;
+    font-size: 12px;
+    font-weight: lighter;
 }
