@@ -30,6 +30,37 @@
     margin-top:-40px;
 
 }
+#tweet {
+    width:50px;
+    height:50px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+#api {
+    width:50px;
+    height:50px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+#jump {
+    width:50px;
+    height:50px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+#dbr {
+    width:50px;
+    height:50px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
 /* hack */
 #projects:hover ~ #arrow {
     top:30%;
