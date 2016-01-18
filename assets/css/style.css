@@ -17,6 +17,43 @@
     display: inline-block;
 }
 
+#arrow {
+    background-color: #000000;
+    height:50px;
+    width: 50px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top:13%;
+    margin-left:135px;
+    margin-top:-40px;
+
+}
+/* hack */
+#projects:hover ~ #arrow {
+    top:30%;
+    transition:.5s;
+}
+#code:hover ~ #arrow {
+    top:45%;
+    transition:.5s;
+}
+#design:hover ~ #arrow {
+    top:62%;
+    transition:.5s;
+}
+#writing:hover ~ #arrow {
+    top:78%;
+    transition:.5s;
+}
+#contact:hover ~ #arrow {
+    top:94%;
+    transition:.5s;
+}
+/* hack */
+
+
 a {
     text-decoration: none;
 }
