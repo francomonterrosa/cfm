@@ -64,23 +64,23 @@
 /* hack */
 #projects:hover ~ #arrow {
     top:30%;
-    transition:.5s;
+    transition:.7s;
 }
 #code:hover ~ #arrow {
     top:45%;
-    transition:.5s;
+    transition:.7s;
 }
 #design:hover ~ #arrow {
     top:62%;
-    transition:.5s;
+    transition:.7s;
 }
 #writing:hover ~ #arrow {
     top:78%;
-    transition:.5s;
+    transition:.7s;
 }
 #contact:hover ~ #arrow {
     top:94%;
-    transition:.5s;
+    transition:.7s;
 }
 /* hack */
 
